@@ -1,1 +1,46 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 0bf154e7-2e53-4312-9b5f-82323cf99475
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 0bf154e7-2e53-4312-9b5f-82323cf99475
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 1|🇬🇧1 |  1.6MB/s
+  password: 6f859133-249c-313f-a2fa-7d99c54ed0af
+  port: 25238
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z267.hongkongnode.top
+  type: trojan
+  udp: true
+- auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  client-fingerprint: chrome
+  name: 1|🇬🇧2 |  1.2MB/s
+  password: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  port: 30102
+  server: ae2.bethebest.eu.org
+  skip-cert-verify: true
+  sni: du.wish.ml
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰香港 01 | 1x HK
+  password: b228282e-8c05-4761-a56b-f30e3010453b
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧英国家宽 01 | 1x UK
+  password: b228282e-8c05-4761-a56b-f30e3010453b
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
